@@ -1,0 +1,41 @@
+<form>
+    <table>
+        <tr>
+            <td>
+                Choice:
+            </td>
+            <td>
+                <input type = "radio" id = "choice1" name = "choice" value = "valuta">
+                <label for="choice1">Valuta</label>
+            </td>
+            <td>
+                <input type = "radio" id = "choice2" name = "choice" value="metall">
+                <label for="choice2">Metall</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date:
+            </td>
+            <td>
+                <input type = "radio" id = "choice3" name = "date" value="now">
+                <label for="choice3">Now</label>
+            </td>
+            <td>
+                <input type = "radio" id = "choice4" name = "date" value="another">
+                <label for="choice4">Another Date</label>
+            </td>
+        </tr>
+	<tr>
+		<td>
+		<input type="text" name="firPer">
+		</td>
+		<td>
+		<input type="text" name="secPer">
+		</td>
+		<td>
+		<button type="submit">Take it</button>
+		</td>
+	</tr>
+    </table>
+</form>

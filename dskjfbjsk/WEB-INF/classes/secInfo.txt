@@ -1,0 +1,8 @@
+<form>
+    <p>
+        Write your number here:
+    </p>
+    <p>
+        <input type = "text" name = "usersText">
+    </p>
+</form>
